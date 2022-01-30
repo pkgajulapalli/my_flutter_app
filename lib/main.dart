@@ -4,6 +4,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:my_flutter_app/layout.dart';
 import 'package:my_flutter_app/screens/home.dart';
 
+import 'constants/values.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Admin',
+      title: title,
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.white,
         textTheme: GoogleFonts.mulishTextTheme(
