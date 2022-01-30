@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:my_flutter_app/controllers/MenuController.dart';
 import 'package:my_flutter_app/layout.dart';
 import 'package:my_flutter_app/screens/home.dart';
 
 import 'constants/values.dart';
 
 void main() {
+  Get.put(MenuController());
   runApp(const MyApp());
 }
 
