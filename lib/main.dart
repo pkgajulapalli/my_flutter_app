@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
           TargetPlatform.android: FadeUpwardsPageTransitionsBuilder()
         }),
         primaryColor: Colors.black,
-        primarySwatch: Colors.green,
+        primarySwatch: Colors.blue,
       ),
       home: SiteLayout(),
     );
